@@ -1,0 +1,5 @@
+                    root
+                      |
+                   GameWrapper(game title)
+            /                   \
+    user info & current level     game 
