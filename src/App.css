@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(59, 193, 202);
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    border: 2px solid red;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: blueviolet;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    margin-top: 50px;
+
+    /* 每個element的間隔 */
+    gap: 10px;
+}
+.block {
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: rgb(207 232 220); */
+    border: 2px solid rgb(79 185 227);
+
+    /* 長寬比，保證他是square */
+    aspect-ratio: 1 / 1;
+}
